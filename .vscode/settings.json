@@ -1,0 +1,18 @@
+{
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Args": [
+        "--max-line-length=500",
+        "--ignore=E402,E121,E123,E126,E226,E24,E704,W503,W504,F403,F405"
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true,
+        "**/*.spec": true,
+        "**/dist": true,
+        "**/build": true
+    },
+    "editor.minimap.enabled": true
+}
